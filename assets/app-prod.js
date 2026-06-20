@@ -4,9 +4,10 @@
         var currentHost = window.location.hostname;
         var currentPort = window.location.port;
     
-        var APP_URL = "http://" + currentHost + ":" + (currentPort || "8090");  
+        var APP_URL = "https://" + currentHost + ":" + (currentPort || "8090");  
         var APP_HOST =  currentHost;  
-        var PROXY_URL = "http://" + currentHost + ":8070"; 
+        var PROXY_URL = "https://" + currentHost + ":8070"; 
+        var GDATA_URL = "https://tv36.pages.dev"
     
         console.log("APP_URL:", APP_URL);
         console.log("PROXY_URL:", PROXY_URL);
@@ -12184,7 +12185,7 @@
         z(Wg, ig);
         d = Wg.prototype;
         d.Ne = function() {
-            return this.Od.useStageGdata ? APP_URL + "/feeds/api" : APP_URL + "/feeds/api"
+            return this.Od.useStageGdata ? GDATA_URL + "/feeds/api" : GDATA_URL + "/feeds/api"
         };
         d.Uq = function() {
             return this.Od.supportsCors ? "GET" : "JSONP"
