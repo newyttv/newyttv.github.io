@@ -1,51 +1,8 @@
 
-# 2013YouTubeTV
+# New YT TV
 
-A project to revive the old 2012-2014 YouTubeTV HTML5 Web App.
+A community project to revive the old 2012-2014 YouTubeTV HTML5 Web App Based on 2013YouTubeTV
 
-## Screenshots
-
-**[Note These Are As Of The 11th Of February At 2:15 EST, Things Will Have Changed]**
-
-![Screenshot 1](screenshots/s1.png)
-![Screenshot 2](screenshots/s2.png)
-![Screenshot 3](screenshots/s3.png)
-![Screenshot 4](screenshots/s4.png)
-![Screenshot 5](screenshots/s5.png)
-![Screenshot 6](screenshots/s6.png)
-
-## Credits
-
-- YouTube/Google
-
-- Erie Valley Software/Erievs
-
-- youtube-dl-exec [https://github.com/microlinkhq/youtube-dl-exec] 
-
-- cors-anywhere [https://github.com/Rob--W/cors-anywhere?tab=readme-ov-file]
-
-- qr-code [https://www.npmjs.com/package/qrcode]
-
-- xml2js [https://github.com/Leonidas-from-XIV/node-xml2js]
-
-- dx for his knowlage 
-
-- Retrofoxxo for his private exsiting project which has a lot of the data I needed.
-
-## Before Posting An Issue!
-
-- Do not hide your damn local ip adress, I have no idea why SO many people
-do not know that a 192.168.1.blank or equivlient is not your public IP. I
-cannot help you if you're hiding part of your screen.
-
-- Do not report an issue if you modified the port or adress you're hosting this on
-, you're on your own if you wanna host it on a different port.
-
-## If You're Going To Host This
-
-PLEASE disable Oauth, so just delete refrences to it in server.js, why 
-because this is designed for someone to host themeselves and only themeselves
-so I save your token/refresh token in a .json file.
 
 ## Things To Know
 
@@ -152,7 +109,7 @@ should run fine
 
 ## Setup
 
-**[Note This Project Isn't Done, So Guide Won't Be Super Great]**
+**[Note This Project Is Based on 2013YouTubeTV, So Guide Won't Be Super Great]**
 
 [Make sure you have nodejs, npm, and python3 (version 3.7.something or above!)]
 
